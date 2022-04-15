@@ -3,3 +3,5 @@
 ### React hacker news search
 
 A code-along project with John Smilga, and added **page input**
+
+Deployed here: https://hackernews-s.netlify.app/
