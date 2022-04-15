@@ -15,7 +15,7 @@ const reducer = (state, action) => {
       return {
         ...state,
         isLoading: false,
-        hits: action.payload.hits,
+        hits: action.payload.hits.filter((i) => i.title !== null),
         nbPages: action.payload.nbPages,
       }
     case REMOVE_STORY:
